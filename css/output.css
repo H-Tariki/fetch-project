@@ -616,6 +616,14 @@ video {
   top: 0px;
 }
 
+.left-1 {
+  left: 0.25rem;
+}
+
+.-right-1 {
+  right: -0.25rem;
+}
+
 .z-\[\] {
   z-index: ;
 }
@@ -888,6 +896,11 @@ video {
 .hover\:bg-yellow-300:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(253 224 71 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-red-500:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(239 68 68 / var(--tw-bg-opacity));
 }
 
 .hover\:text-white:hover {

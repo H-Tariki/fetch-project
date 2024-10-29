@@ -1,5 +1,5 @@
-document.getElementById('what-number').addEventListener('click', function() {
-    const inputNumber = this.value
+document.getElementById('click-btn').addEventListener('click', function() {
+    const inputNumber = document.getElementById('what-number').value
     if (inputNumber) {
         const url = `https://jsonplaceholder.typicode.com/posts/${inputNumber}`
 

@@ -5,7 +5,7 @@
     background-color: rgba(0, 0, 0, 0.2);
 }
 #what-number::placeholder{
-    color: white;
+    color: black;
 }
 #what-number:hover::placeholder{
     color: red;
