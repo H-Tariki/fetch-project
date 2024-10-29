@@ -12,6 +12,21 @@
      <script src="./js/script.js" defer></script>
 </head>
 <body>
-    <h1 class="bg-red-500">hello world</h1>
+    <div id="card-container" class="w-full h-[700px] flex justify-center items-center mt-10">
+        <div id="card" class="container w-[25%] h-[100%] border flex flex-col relative rounded-lg shadow-2xl">
+            <img src="./images/test1.jpg" alt="" class="w-full h-[60%] border-b-2 z-[-10]">
+            <div id="darken" class="w-full h-[60%] absolute top-0"></div>
+            <div id="darken2" class="w-full h-[40%] absolute bottom-0 rounded-b-lg"></div>
+            <div id="card-text" class="w-full p-5">
+                <h1 class="text-red-700 ">Lorem, ipsum.</h1>
+                <p class="my-6 text-yellow-500">Lorem ipsum dolor sit amet.</p>
+                <p class="text-justify text-green-600">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Repellendus impedit ab minus odio libero assumenda ea provident rem odit nulla? Illum quisquam odit,
+                    sint sapiente nobis voluptatibus maiores eos debitis.
+                </p>
+            </div>
+            <input type="number" id="what-number" class="border w-[30%] absolute bottom-1 right-1 p-3 hover:bg-yellow-300 rounded-lg bg-gray-400 transition-colors duration-500 hover:border-red-600 cursor-pointer" placeholder="what namber?">
+        </div>
+    </div>
 </body>
 </html>

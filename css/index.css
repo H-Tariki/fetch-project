@@ -1,0 +1,12 @@
+#darken{
+    background-color: rgba(148, 148, 148, 0.1);
+}
+#darken2{
+    background-color: rgba(0, 0, 0, 0.2);
+}
+#what-number::placeholder{
+    color: white;
+}
+#what-number:hover::placeholder{
+    color: red;
+}
